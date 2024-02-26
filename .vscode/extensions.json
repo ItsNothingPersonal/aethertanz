@@ -1,0 +1,15 @@
+{
+	"recommendations": [
+		"svelte.svelte-vscode",
+		"bradlc.vscode-tailwindcss",
+		"austenc.tailwind-docs",
+		"vitest.explorer",
+		"esbenp.prettier-vscode",
+		"csstools.postcss",
+		"ms-playwright.playwright",
+		"idered.npm",
+		"mhutchie.git-graph",
+		"donjayamanne.githistory",
+		"dbaeumer.vscode-eslint"
+	]
+}
