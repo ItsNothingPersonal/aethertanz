@@ -1,6 +1,3 @@
-<script lang="ts">
-</script>
-
 <div class="max-w-screen-md rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg">
 	<h1 class="h1">Äthertanz I - Höhenluft</h1>
 	<p>
