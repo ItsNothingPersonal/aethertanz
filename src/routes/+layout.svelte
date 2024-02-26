@@ -19,7 +19,7 @@
 			<nav class="list-nav xl:flex">
 				<a href="/" class="list-nav-item whitespace-nowrap">Was ist LARP?</a>
 				<a href="/" class="list-nav-item whitespace-nowrap">Äthertanz: Höhenluft</a>
-				<a href="/" class="list-nav-item whitespace-nowrap">Anmeldung</a>
+				<a href="/anmeldung" class="list-nav-item whitespace-nowrap">Anmeldung</a>
 				<a href="/" class="list-nav-item whitespace-nowrap">Über Uns</a>
 				<a href="/impressum" class="list-nav-item whitespace-nowrap">Impressum</a>
 			</nav>

@@ -1,4 +1,5 @@
 import { skeleton } from '@skeletonlabs/tw-plugin';
+import forms from '@tailwindcss/forms';
 import { join } from 'path';
 import type { Config } from 'tailwindcss';
 
@@ -16,6 +17,7 @@ const config = {
 		}
 	},
 	plugins: [
+		forms,
 		skeleton({
 			themes: { preset: [{ name: 'vintage', enhancements: true }] }
 		})
