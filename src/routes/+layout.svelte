@@ -12,7 +12,7 @@
 	<svelte:fragment slot="header">
 		<AppBar
 			gridColumns="grid-cols-3"
-			slotLead="sm:text-lg sm:font-bold"
+			slotLead="whitespace-nowrap sm:font-bold sm:text-lg"
 			slotDefault="place-self-center sm:text-lg"
 		>
 			<svelte:fragment slot="lead">Äthertanz: Höhenluft</svelte:fragment>
