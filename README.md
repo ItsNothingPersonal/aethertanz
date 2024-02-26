@@ -1,38 +1,31 @@
-# create-svelte
+# Äthertanz: Höhenluft
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+Die Seite für das Cthulu LARP Projekt "Äthertanz: Höhenluft" des Nächtliches Theater e.V.
 
-## Creating a project
+## Entwicklung
 
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Sobald die Abhängigkeiten mit `npm install` (oder `pnpm install` oder `yarn`) installiert wurden, kann der Entwicklungs-Server wie folgt gestartet werden:
 
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# oder starte den Server und öffne die App in einem neuen Browser-Tab
 npm run dev -- --open
 ```
 
-## Building
+## Bauen
 
-To create a production version of your app:
+Um die Produktionsversion der App zu bauen:
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Du kannst den Produktions-Build mit `npm run preview` starten.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Anerkennung
+
+Ohne die folgenden Projekte wäre dieses hier nicht möglich:
+
+- [svelte](https://svelte.dev/) & [sveltekit](https://kit.svelte.dev/)
+- [skeleton](https://www.skeleton.dev)
