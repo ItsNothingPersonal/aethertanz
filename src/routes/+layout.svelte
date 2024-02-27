@@ -22,19 +22,27 @@
 				slotLead="whitespace-nowrap sm:font-bold sm:text-lg"
 				slotDefault="place-self-center sm:text-lg"
 			>
-				<svelte:fragment slot="lead">Äthertanz: Höhenluft</svelte:fragment>
+				<svelte:fragment slot="lead">
+					<a href="/"> Äthertanz: Höhenluft </a>
+				</svelte:fragment>
 				<nav class="list-nav flex">
-					<a href="/" class="list-nav-item whitespace-nowrap">Was ist LARP?</a>
-					<a href="/" class="list-nav-item whitespace-nowrap">Äthertanz: Höhenluft</a>
+					<a href="/was-ist-larp" class="list-nav-item whitespace-nowrap">Was ist LARP?</a>
+					<a href="/aethertanz-hoehenluft" class="list-nav-item whitespace-nowrap">
+						Äthertanz: Höhenluft
+					</a>
 					<a href="/anmeldung" class="list-nav-item whitespace-nowrap">Anmeldung</a>
-					<a href="/" class="list-nav-item whitespace-nowrap">Über Uns</a>
+					<a href="/ueber-uns" class="list-nav-item whitespace-nowrap">Über Uns</a>
 					<a href="/impressum" class="list-nav-item whitespace-nowrap">Impressum</a>
 				</nav>
 			</AppBar>
 		{/if}
 	</svelte:fragment>
 
-	<slot />
+	<svelte:fragment slot="default">
+		<div class="max-w-screen-md rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg">
+			<slot />
+		</div>
+	</svelte:fragment>
 
 	<svelte:fragment slot="pageFooter">
 		{#if innerWidth > 1280}
@@ -50,10 +58,12 @@
 				class="bg-surface-100-800-token fixed inset-x-0 bottom-0 z-10 w-full"
 				padding="px-3 py-2"
 			>
-				<TabAnchorButton icon="material-symbols:home">Äthertanz</TabAnchorButton>
+				<TabAnchorButton icon="material-symbols:home" href="/aethertanz-hoehenluft">
+					Äthertanz
+				</TabAnchorButton>
 				<TabAnchorButton icon="ic:baseline-plus" href="/anmeldung">Anmeldung</TabAnchorButton>
-				<TabAnchorButton icon="ic:baseline-people">Über Uns</TabAnchorButton>
-				<TabAnchorButton icon="material-symbols:info" href="impressum">Impressum</TabAnchorButton>
+				<TabAnchorButton icon="ic:baseline-people" href="/ueber-uns">Über Uns</TabAnchorButton>
+				<TabAnchorButton icon="material-symbols:info" href="/impressum">Impressum</TabAnchorButton>
 			</TabGroup>
 		{/if}
 	</svelte:fragment>
