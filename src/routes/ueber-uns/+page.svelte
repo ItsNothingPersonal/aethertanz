@@ -1,16 +1,14 @@
 <div class="mb-4 grid w-full grid-cols-1 items-center gap-4 text-justify sm:grid-cols-2">
-	<img class="w-full" src="https://via.placeholder.com/150" alt="Image" aria-hidden="true" />
+	<img class="w-full" src="/avatar_anu.webp" alt="Image" aria-hidden="true" />
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac lacinia tincidunt,
-		nunc nunc aliquam nunc, id lacinia nunc nunc auctor. Sed euismod, nisl ac lacinia tincidunt,
-		nunc nunc aliquam nunc, id lacinia nunc nunc auctor.
+		<span class="font-bold">Anu</span><br />
+		Vampire gamemaster. Bibliophile. Ukulele player. Geek.
 	</p>
 </div>
 <div class="mb-4 grid w-full grid-cols-1 items-center gap-4 text-justify sm:grid-cols-2">
 	<p>
-		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl ac lacinia tincidunt,
-		nunc nunc aliquam nunc, id lacinia nunc nunc auctor. Sed euismod, nisl ac lacinia tincidunt,
-		nunc nunc aliquam nunc, id lacinia nunc nunc auctor.
+		<span class="font-bold">Rai</span><br />
+		Camarilla Methusalem. Cinephile. 40k Chaplain. Passionate Storyteller.
 	</p>
-	<img class="w-full" src="https://via.placeholder.com/150" alt="Image" aria-hidden />
+	<img class="w-full" src="/avatar_rai.webp" alt="Image" aria-hidden />
 </div>

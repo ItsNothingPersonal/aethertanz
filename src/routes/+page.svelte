@@ -1,29 +1,17 @@
-<h1 class="h1">Äthertanz I - Höhenluft</h1>
-<p>
-	Liebe Freunde, Anu und ich würden gerne mit euch und dem nächtlichen Theater einmal neue Wege
-	bestreiten. Im Zuge dessen möchten wir euch gerne unseren Eldritch Horror Tages-Con „Äthertanz“
-	näher vorstellen.
-</p>
-
-<h2 class="h2 mt-4">Was ist Äthertanz I - Höhenluft?</h2>
-<p class="mb-2">
-	Es handelt sich hierbei um einen Tages-Con im Chtulhu-Setting der 1920er. Der Spielstil soll
-	hierbei von schleichendem psychologischen Horror und Grusel geprägt sein. Auch Krimielemente wird
-	es auf jeden Fall geben. Auf keinen Fall wollen wir euch dies mit dem Holzhammer präsentieren
-	(Tentakelmonster greifen an etc.). Vielmehr werdet ihr feststellen, wie der Wahnsinn nach und nach
-	seinen Weg in die zu Beginn friedliche Zusammenkunft bahnt.
-</p>
-<p class="mb-2">
-	In „Äthertanz I - Höhenluft“ lädt eine reiche Schweizer Bankiersfamilie verschiedenste
-	Persönlichkeiten der Gesellschaft auf ihren Bergsitz in den Alpen ein, um sich auszutauschen und
-	sich zu präsentieren. Nach und nach wird deutlich, dass hier etwas ganz und gar nicht stimmen
-	kann…
-</p>
-<p>
-	Die Veranstaltung ist dabei eine klassische Larp-Veranstaltung, die dem Prinzip DKWDDK folgt.
-	Einen Charakterbogen gibt es also nicht. Die Dinge werden entsprechend ausgespielt. Kämpfe und
-	Verwundungen sind entsprechend der Vorlage schnell tödlich. Dabei werden Schläge etc. natürlich
-	nur angedeutet. Es ist aber generell unwahrscheinlich, dass auf einer derartigen Veranstaltung
-	viele Waffen im Umlauf sind. Bis auf das Messer in der Küche oder ein loses Heizungsrohr
-	vielleicht…
-</p>
+<article class="prose lg:prose-xl text-center italic">
+	<p>
+		Sehr geehrte Damen und Herren,<br />
+		Es ist uns eine große Ehre, Sie persönlich zu einer geselligen Zusammenkunft in einem exklusiven
+		Kreis einzuladen. Als interessante Figur der Kultur, Wissenschaft und Zeitgeschichte sind Sie gewiß
+		bereits mit der Bankiersfamilie Prinn in Berührung gekommen. Am Wochenende vor Allerheiligen heißen
+		wir Sie zu einem ungezwungenen Beisammensein in unserem Winterdomizil in den Schweizer Alpen willkommen.
+	</p>
+	<p>
+		In den vergangenen Jahren war es mir und meiner Gattin wegen meiner angeschlagenen Gesundheit
+		nur selten möglich, der Gesellschaft beizuwohnen. Umso mehr freuen wir uns, wenn Sie es uns
+		ermöglichen, an diesem Rückzugsort fern von der lärmenden Menge an Ihren Errungenschaften
+		teilhaben zu können.
+	</p>
+	<p>Wir freuen uns, Sie bald bei uns begrüßen zu dürfen.</p>
+	<p>Herzlichst, Cornel und Leokadia Prinn</p>
+</article>
