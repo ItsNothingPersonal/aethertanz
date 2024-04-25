@@ -2,6 +2,8 @@
 	import Footer from '$lib/components/Footer/Footer.svelte';
 	import TabAnchorButton from '$lib/components/TabAnchorButton/TabAnchorButton.svelte';
 	import { AppBar, AppShell, TabGroup } from '@skeletonlabs/skeleton';
+	import { quintOut } from 'svelte/easing';
+	import { slide } from 'svelte/transition';
 	import '../app.pcss';
 
 	let innerWidth = 0;
@@ -14,6 +16,7 @@
 	regionPage="relative"
 	slotPageHeader="sticky top-0 z-10"
 	slotPageContent="px-2 mx-auto mt-2 sm:mt-4 lg:mt-8 {innerWidth < 640 ? 'pb-24' : ''}"
+	slotPageFooter="sticky bottom-0 z-10"
 >
 	<svelte:fragment slot="header">
 		{#if innerWidth >= 1280}
@@ -39,7 +42,7 @@
 	</svelte:fragment>
 
 	<svelte:fragment slot="default">
-		<div class="max-w-screen-md rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg">
+		<div class="max-w-screen-md rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg" transition:slide={{ delay: 250, duration: 300, easing: quintOut, axis: 'x' }}>
 			<slot />
 		</div>
 	</svelte:fragment>
