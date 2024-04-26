@@ -14,6 +14,9 @@ const config = {
 		extend: {
 			gridTemplateRows: {
 				layout: 'auto 1fr'
+			},
+			gridTemplateColumns: {
+				layout: 'auto 2fr'
 			}
 		}
 	},
