@@ -1,5 +1,5 @@
 <div class="mb-4 flex w-full min-w-fit flex-col">
-	<div class="sm:grid-cols-layout mb-4 grid grid-cols-1 items-center gap-4 text-justify">
+	<div class="mb-4 grid grid-cols-1 items-center gap-4 text-justify sm:grid-cols-layout">
 		<img
 			src="/avatar_anu.webp"
 			alt="Image"
@@ -11,7 +11,7 @@
 			Vampire gamemaster. Bibliophile. Ukulele player. Geek.
 		</p>
 	</div>
-	<div class="sm:grid-cols-layout mb-4 grid grid-cols-1 items-center gap-4 text-justify">
+	<div class="mb-4 grid grid-cols-1 items-center gap-4 text-justify sm:grid-cols-layout">
 		<img
 			src="/avatar_rai.webp"
 			alt="Image"

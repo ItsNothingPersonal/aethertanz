@@ -1,20 +1,21 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
-	import type { ActionResult } from '@sveltejs/kit';
+	import type { SubmitFunction } from '@sveltejs/kit';
 
 	export let form;
 
 	let isSubmitting = false;
 	let allergien: 'ja' | 'nein' = 'nein';
 
-	function submitForm() {
+	const submitForm: SubmitFunction = () => {
 		isSubmitting = true;
 
-		return async ({ result }: { result: ActionResult }) => {
+		return async ({ update, result }) => {
 			await applyAction(result);
+			await update();
 			isSubmitting = false;
 		};
-	}
+	};
 </script>
 
 <form method="post" use:enhance={submitForm}>
@@ -87,7 +88,6 @@
 			class="textarea"
 			rows="4"
 			placeholder="Musst du uns auf bestimmte Trigger hinweisen? Gemeint sind tatsächliche Schlüsselreize, die psychische oder physische Episoden oder Zusammenbrüche auslösen können."
-			required
 		/>
 	</label>
 	<button type="submit" class="variant-filled-primary rounded px-4 py-2" disabled={isSubmitting}>

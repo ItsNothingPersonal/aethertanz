@@ -7,8 +7,13 @@ export async function POST({ request }) {
 
 	const name = String(data.get('name'));
 	const email = String(data.get('email'));
-	const beschreibung = String(data.get('beschreibung'));
+	const alter = String(data.get('age')) === 'on' ? 'ja' : 'nein';
 	const essen = String(data.get('essen'));
+	const allergien = data.get('allergien-beschreibung')
+		? String(data.get('allergien-beschreibung'))
+		: 'Keine';
+	const beschreibung = String(data.get('beschreibung'));
+	const trigger = data.get('trigger') ? String(data.get('trigger')) : 'Keine';
 
 	const serviceAuth = createServiceAccountAuth(
 		import.meta.env.VITE_GOOGLE_SERVICE_ACCOUNT_EMAIL,
@@ -23,8 +28,11 @@ export async function POST({ request }) {
 	await sheet.addRow({
 		Name: name,
 		EMail: email,
+		Alter: alter,
+		Essen: essen,
+		Allergien: allergien,
 		Beschreibung: beschreibung,
-		Essen: essen
+		Trigger: trigger
 	});
 
 	return json({ success: true });

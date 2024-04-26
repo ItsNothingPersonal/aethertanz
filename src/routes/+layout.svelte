@@ -42,7 +42,10 @@
 	</svelte:fragment>
 
 	<svelte:fragment slot="default">
-		<div class="max-w-screen-md rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg" transition:slide={{ delay: 250, duration: 300, easing: quintOut, axis: 'x' }}>
+		<div
+			class="max-w-screen-md rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg"
+			transition:slide={{ delay: 250, duration: 300, easing: quintOut, axis: 'x' }}
+		>
 			<slot />
 		</div>
 	</svelte:fragment>

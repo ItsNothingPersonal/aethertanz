@@ -1,4 +1,4 @@
-<article class="prose lg:prose-xl text-center italic">
+<article class="prose text-center italic lg:prose-xl">
 	<p>
 		Sehr geehrte Damen und Herren,<br />
 		Es ist uns eine große Ehre, Sie persönlich zu einer geselligen Zusammenkunft in einem exklusiven
