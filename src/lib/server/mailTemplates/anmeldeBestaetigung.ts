@@ -1,4 +1,4 @@
-Hallo
+export const bestaetigungsTemplate = `Hallo
 {{name}}!<br /><br />
 
 Hiermit bestätigen wir den Eingang deiner Anmeldung!<br /><br />
@@ -27,4 +27,4 @@ Bitte überprüfe auch, ob deine Angaben aus dem Anmeldeformular korrekt sind:<b
 Wir freuen uns sehr über deine Anmeldung und sehen uns im Oktober!<br /><br />
 
 Mit freundlichen Grüßen<br />
-Die Äthertanz-Orga
+Die Äthertanz-Orga`;

@@ -5,9 +5,9 @@ import {
 	SMTP_PORT,
 	SMTP_USERNAME
 } from '$env/static/private';
-import fs from 'fs';
 import handlebars from 'handlebars';
 import nodemailer from 'nodemailer';
+import { bestaetigungsTemplate } from './mailTemplates/anmeldeBestaetigung';
 
 const transporter = nodemailer.createTransport({
 	host: SMTP_HOST,
@@ -19,19 +19,13 @@ const transporter = nodemailer.createTransport({
 	}
 });
 
-const compileEmailTemplate = (templatePath: string, data: unknown): string => {
-	const templateFile = fs.readFileSync('./src/lib/server/mailTemplates/' + templatePath, 'utf-8');
-	const template = handlebars.compile(templateFile);
+const compileEmailTemplate = (data: unknown): string => {
+	const template = handlebars.compile(bestaetigungsTemplate);
 	return template(data);
 };
 
-export const sendEmail = async (
-	to: string,
-	subject: string,
-	templatePath: string,
-	data: unknown
-) => {
-	const html = compileEmailTemplate(templatePath, data);
+export const sendEmail = async (to: string, subject: string, data: unknown) => {
+	const html = compileEmailTemplate(data);
 
 	const mailOptions = {
 		from: EMAIL_FROM,

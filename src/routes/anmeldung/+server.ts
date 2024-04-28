@@ -25,12 +25,7 @@ export async function POST({ request }) {
 
 	// Versand der Bestätigungsmail
 	try {
-		await sendEmail(
-			formData.email,
-			'Anmeldebestätigung Äthertanz: Höhenluft',
-			'anmeldeBestaetigung.hbs',
-			formData
-		);
+		await sendEmail(formData.email, 'Anmeldebestätigung Äthertanz: Höhenluft', formData);
 	} catch (error) {
 		console.error('Error sending email:', error);
 		return json({ success: false });
