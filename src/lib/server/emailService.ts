@@ -31,7 +31,8 @@ export const sendEmail = async (to: string, subject: string, data: unknown) => {
 		from: EMAIL_FROM,
 		to,
 		subject,
-		html
+		html,
+		bcc: ['anu@naechtlichestheater.de', 'rai@naechtlichestheater.de']
 	};
 
 	await transporter.sendMail(mailOptions);
