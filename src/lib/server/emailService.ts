@@ -8,11 +8,6 @@ import {
 import fs from 'fs';
 import handlebars from 'handlebars';
 import nodemailer from 'nodemailer';
-import path, { dirname } from 'path';
-import { fileURLToPath } from 'url';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
 
 const transporter = nodemailer.createTransport({
 	host: SMTP_HOST,
@@ -25,7 +20,7 @@ const transporter = nodemailer.createTransport({
 });
 
 const compileEmailTemplate = (templatePath: string, data: unknown): string => {
-	const templateFile = fs.readFileSync(path.join(__dirname, templatePath), 'utf-8');
+	const templateFile = fs.readFileSync('./src/lib/server/mailTemplates/' + templatePath, 'utf-8');
 	const template = handlebars.compile(templateFile);
 	return template(data);
 };
