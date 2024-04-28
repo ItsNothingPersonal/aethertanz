@@ -28,7 +28,7 @@ export async function POST({ request }) {
 		await sendEmail(
 			formData.email,
 			'Anmeldebestätigung Äthertanz: Höhenluft',
-			'lib/server/mailtemplates/anmeldeBestaetigung.hbs',
+			'./src/lib/server/mailtemplates/anmeldeBestaetigung.hbs',
 			formData
 		);
 	} catch (error) {
