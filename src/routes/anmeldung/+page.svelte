@@ -106,4 +106,11 @@
 			<p>Deine Anmeldung wurde in die Liste eingetragen!</p>
 		</div>
 	</aside>
+{:else if form?.success === false}
+	<aside class="alert variant-filled-surface mt-4">
+		<div class="alert-message">
+			<h3 class="h3">Fehler bei Anmeldung!</h3>
+			<p>Es ist ein Fehler beim Übermitteln der Anmeldung aufgetreten!</p>
+		</div>
+	</aside>
 {/if}
