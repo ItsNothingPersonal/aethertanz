@@ -82,7 +82,7 @@
 	</label>
 
 	<label class="label mb-2">
-		<span>Trigger-Hinweise</span>
+		<span>OT Trigger-Hinweise</span>
 		<textarea
 			name="trigger"
 			class="textarea"

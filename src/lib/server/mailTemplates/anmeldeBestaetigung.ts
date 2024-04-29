@@ -21,7 +21,7 @@ Bitte überprüfe auch, ob deine Angaben aus dem Anmeldeformular korrekt sind:<b
 {{allergien}}<br />
 <strong>Charakterbeschreibung:</strong>
 {{beschreibung}}<br />
-<strong>Trigger:</strong>
+<strong>OT-Trigger:</strong>
 {{trigger}}<br /><br />
 
 Wir freuen uns sehr über deine Anmeldung und sehen uns im Oktober!<br /><br />

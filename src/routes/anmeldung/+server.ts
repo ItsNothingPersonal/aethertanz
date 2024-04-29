@@ -46,7 +46,7 @@ export async function POST({ request }) {
 		Essen: formData.essen,
 		Allergien: formData.allergien,
 		Beschreibung: formData.beschreibung,
-		Trigger: formData.trigger
+		'OT-Trigger': formData.trigger
 	});
 
 	return json({ success: true });
