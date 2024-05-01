@@ -15,7 +15,7 @@
 <AppShell
 	regionPage="relative"
 	slotPageHeader="sticky top-0 z-10"
-	slotPageContent="overflow-y-scroll px-2 mx-auto mt-2 sm:mt-4 lg:mt-8 {innerWidth < 640
+	slotPageContent="overflow-y-auto px-2 mx-auto mt-2 sm:mt-4 lg:mt-8 {innerWidth < 640
 		? 'pb-24'
 		: ''}"
 	slotPageFooter="sticky bottom-0 z-10"
