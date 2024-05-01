@@ -13,5 +13,8 @@
 		teilhaben zu können.
 	</p>
 	<p>Wir freuen uns, Sie bald bei uns begrüßen zu dürfen.</p>
-	<p>Herzlichst, Cornel und Leokadia Prinn</p>
+	<p>
+		Herzlichst,<br />
+		Cornel und Leokadia Prinn
+	</p>
 </article>
