@@ -5,6 +5,8 @@
 			alt="Image"
 			aria-hidden="true"
 			class="place-self-center sm:place-self-start"
+			height="192"
+			width="192"
 		/>
 		<p>
 			<span class="font-bold">Anu</span><br />
@@ -17,6 +19,8 @@
 			alt="Image"
 			aria-hidden
 			class="place-self-center sm:place-self-start"
+			height="256"
+			width="192"
 		/>
 		<p>
 			<span class="font-bold">Rai</span><br />
