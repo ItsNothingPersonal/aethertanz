@@ -4,7 +4,7 @@
 			src="/avatar_anu.webp"
 			alt="Image"
 			aria-hidden="true"
-			class="place-self-center sm:place-self-start"
+			class="place-self-center rounded-lg shadow-lg dark:shadow-gray-800 sm:place-self-start"
 			height="192"
 			width="192"
 		/>
@@ -18,7 +18,7 @@
 			src="/avatar_rai.webp"
 			alt="Image"
 			aria-hidden
-			class="place-self-center sm:place-self-start"
+			class="place-self-center rounded-lg shadow-lg dark:shadow-gray-800 sm:place-self-start"
 			height="256"
 			width="192"
 		/>
