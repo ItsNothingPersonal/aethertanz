@@ -1,3 +1,15 @@
+<script lang="ts">
+	import Icon from '@iconify/svelte';
+</script>
+
+<aside class="alert variant-ghost mb-6">
+	<Icon icon="mdi:warning" class="h-10 w-10 self-center" />
+	<div class="alert-message">
+		<h3 class="h3">Es ist nicht tot, was ewig liegt...</h3>
+		<p>Äthertanz ist für 2024 abgesagt! Wir sehen uns im Jahr 2025 wieder!</p>
+	</div>
+</aside>
+
 <article class="prose text-center italic lg:prose-xl">
 	<p>
 		Sehr geehrte Damen und Herren,<br />

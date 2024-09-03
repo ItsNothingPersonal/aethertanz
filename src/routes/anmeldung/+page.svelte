@@ -90,7 +90,11 @@
 			placeholder="Musst du uns auf bestimmte Trigger hinweisen? Gemeint sind tatsächliche Schlüsselreize, die psychische oder physische Episoden oder Zusammenbrüche auslösen können."
 		/>
 	</label>
-	<button type="submit" class="variant-filled-primary rounded px-4 py-2" disabled={isSubmitting}>
+	<button
+		type="submit"
+		class="variant-ghost-primary rounded px-4 py-2 hover:cursor-not-allowed"
+		disabled
+	>
 		{#if isSubmitting}
 			Anmeldung wird übermittelt...
 		{:else}
