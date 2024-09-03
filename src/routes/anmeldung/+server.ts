@@ -1,14 +1,9 @@
-import {
-	GOOGLE_PRIVATE_KEY,
-	GOOGLE_SERVICE_ACCOUNT_EMAIL,
-	TARGET_SHEET_ID
-} from '$env/static/private';
-import { sendEmail } from '$lib/server/emailService';
-import { createServiceAccountAuth } from '$lib/server/utils';
 import { json } from '@sveltejs/kit';
-import { GoogleSpreadsheet } from 'google-spreadsheet';
 
-export async function POST({ request }) {
+export async function POST() {
+	return json({ success: false });
+
+	/**
 	const data = await request.formData();
 
 	const formData = {
@@ -48,6 +43,7 @@ export async function POST({ request }) {
 		Beschreibung: formData.beschreibung,
 		'OT-Trigger': formData.trigger
 	});
-
+	
 	return json({ success: true });
+	 */
 }
