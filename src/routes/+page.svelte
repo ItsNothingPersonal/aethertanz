@@ -8,7 +8,9 @@
 	<TriangleAlert />
 	<div>
 		<p class="font-bold">Es ist nicht tot, was ewig liegt...</p>
-		<p class="text-xs">Äthertanz ist für 2024 abgesagt! Wir sehen uns im Jahr 2025 wieder!</p>
+		<p class="text-xs">
+			Die Anmeldung für Äthertanz ist ab dem 29.03.2025 möglich und läuft bis 01.06.2025.
+		</p>
 	</div>
 </div>
 
