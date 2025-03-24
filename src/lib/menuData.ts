@@ -15,7 +15,7 @@ export const menuData: {
 }[] = [
 	{
 		href: '/',
-		label: 'Äthertanz: Höhenluft',
+		label: 'Intro',
 		icon: House,
 		includeOnMobile: false
 	},
