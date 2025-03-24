@@ -1,10 +1,10 @@
 <div class="mb-4 flex w-full min-w-fit flex-col">
-	<div class="mb-4 grid grid-cols-1 items-center gap-4 text-justify sm:grid-cols-layout">
+	<div class="sm:grid-cols-layout mb-4 grid grid-cols-1 items-center gap-4 text-justify">
 		<img
 			src="/avatar_anu.webp"
 			alt="Image"
 			aria-hidden="true"
-			class="place-self-center rounded-lg shadow-lg dark:shadow-gray-800 sm:place-self-start"
+			class="place-self-center rounded-lg shadow-lg sm:place-self-start dark:shadow-gray-800"
 			height="192"
 			width="192"
 		/>
@@ -13,12 +13,12 @@
 			Vampire gamemaster. Bibliophile. Ukulele player. Geek.
 		</p>
 	</div>
-	<div class="mb-4 grid grid-cols-1 items-center gap-4 text-justify sm:grid-cols-layout">
+	<div class="sm:grid-cols-layout mb-4 grid grid-cols-1 items-center gap-4 text-justify">
 		<img
 			src="/avatar_rai.webp"
 			alt="Image"
-			aria-hidden
-			class="place-self-center rounded-lg shadow-lg dark:shadow-gray-800 sm:place-self-start"
+			aria-hidden="true"
+			class="place-self-center rounded-lg shadow-lg sm:place-self-start dark:shadow-gray-800"
 			height="256"
 			width="192"
 		/>

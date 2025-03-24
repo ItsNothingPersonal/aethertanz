@@ -1,4 +1,4 @@
-<article class="prose">
+<article>
 	<p class="italic">
 		Früher war die angesehene Schweizer Bankiersfamilie Prinn ein festes Standbein der feinen
 		Gesellschaft. Um ihre Dinner-Parties und Feste rankten sich einst Legenden, und namhafte
@@ -8,14 +8,14 @@
 		wird euch ein unerwarteter Brief zugestellt ...
 	</p>
 
-	<p class="text-center font-bold">
+	<p class="mt-4 text-center font-bold">
 		Äthertanz I: Höhenluft<br />
 		Eine Mythos-Convention des Nächtliches Theater e.V.<br />
 		25.-27. Oktober 2024<br />
 		Pfadfinder Centrum Callenberg
 	</p>
 
-	<p>
+	<p class="mt-4">
 		<span class="font-bold">Erlebt eine düstere Soirée, inspiriert vom Cthulhu-Mythos!</span><br />
 		Für dieses völlig neue Projekt richten wir in den historischen Stallungen des Schlosses Callenberg
 		und dem umliegenden Wald ein abgelegenes Jagdhaus in den Schweizer Alpen her. Eine zurückgezogen
@@ -23,7 +23,7 @@
 		doch jeder, der kommt, hat seine Geheimnisse und seine eigene dunkle Vergangenheit, und nach und
 		nach wird deutlich, dass hier etwas ganz und gar nicht stimmen kann …
 	</p>
-	<p></p>
+
 	<p>
 		Es handelt sich hierbei um einen 1,5-Tages-Con im Chtulhu-Setting der 1920er. Der Spielstil soll
 		hierbei von schleichendem psychologischen Horror und Grusel geprägt sein. Auch Krimielemente
@@ -41,7 +41,7 @@
 		den Zwängen der Gesellschaft zum Äthertanz!
 	</p>
 
-	<h3>Hier die Details:</h3>
+	<h3 class="h3 mt-4">Hier die Details</h3>
 	<p>
 		<span class="font-bold">Rollen:</span> Eure Charaktere sind gesellschaftlich interessante Figuren,
 		gerne angelehnt an die klassischen Professionen aus Lovecraft Werken oder dem Pen and Paper Call

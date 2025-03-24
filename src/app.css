@@ -1,0 +1,31 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@import '@skeletonlabs/skeleton';
+@import '@skeletonlabs/skeleton/themes/vintage';
+@import '@skeletonlabs/skeleton/optional/presets';
+@import '@fontsource-variable/playfair-display';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme {
+	--grid-template-rows-layout: auto 1fr;
+
+	--grid-template-columns-layout: auto 2fr;
+}
+
+html,
+body {
+	@apply h-full overflow-hidden;
+	body {
+		@apply h-full overflow-hidden;
+		background-image: url('/mountain_home.webp');
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+
+[data-theme='vintage'] {
+	--heading-font-family: 'Playfair Display Variable', serif;
+}

@@ -1,11 +1,12 @@
 <script lang="ts">
 	import { applyAction, enhance } from '$app/forms';
+	import TriangleAlert from '@lucide/svelte/icons/triangle-alert';
 	import type { SubmitFunction } from '@sveltejs/kit';
 
-	export let form;
+	let { form } = $props();
 
-	let isSubmitting = false;
-	let allergien: 'ja' | 'nein' = 'nein';
+	let isSubmitting = $state(false);
+	let allergien: 'ja' | 'nein' = $state('nein');
 
 	const submitForm: SubmitFunction = () => {
 		isSubmitting = true;
@@ -20,12 +21,12 @@
 
 <form method="post" use:enhance={submitForm}>
 	<label class="label mb-2">
-		<span>Name</span>
+		<span class="label-text">Name</span>
 		<input name="name" class="input" type="text" placeholder="Bitte Namen angeben" required />
 	</label>
 
 	<label class="label mb-2">
-		<span>E-Mail</span>
+		<span class="label-text">E-Mail</span>
 		<input
 			name="email"
 			class="input"
@@ -36,13 +37,13 @@
 		/>
 	</label>
 
-	<label class="label mb-2">
-		<input name="age" type="checkbox" required />
-		<span>Ich bestätige, dass ich 18 Jahre oder älter bin.</span>
+	<label class="mb-2 flex items-center space-x-2">
+		<input name="age" class="checkbox" type="checkbox" required />
+		<p>Ich bestätige, dass ich 18 Jahre oder älter bin.</p>
 	</label>
 
 	<label class="label mb-2">
-		<span>Spezielle Essensanforderungen</span>
+		<span class="label-text">Spezielle Essensanforderungen</span>
 		<select name="essen" class="select" required>
 			<option value="nein" selected>Nein</option>
 			<option value="vegetarisch">Vegetarisch</option>
@@ -51,7 +52,7 @@
 	</label>
 
 	<label class="label mb-2">
-		<span>Allergien</span>
+		<span class="label-text">Allergien</span>
 		<select name="allergien" class="select" required bind:value={allergien}>
 			<option value="nein" selected>Nein</option>
 			<option value="ja">Ja</option>
@@ -59,40 +60,40 @@
 	</label>
 	{#if allergien === 'ja'}
 		<label class="label mb-2">
-			<span>Bitte Allergien angeben</span>
+			<span class="label-text">Bitte Allergien angeben</span>
 			<textarea
 				name="allergien-beschreibung"
 				class="textarea"
 				rows="4"
 				placeholder="Bitte Allergien angeben"
 				required
-			/>
+			></textarea>
 		</label>
 	{/if}
 
 	<label class="label mb-2">
-		<span>Charakter-Beschreibung</span>
+		<span class="label-text">Charakter-Beschreibung</span>
 		<textarea
 			name="beschreibung"
 			class="textarea"
 			rows="2"
 			placeholder="Beschreibung des geplanten Charakterkonzepts in max. 3 Wörtern"
 			required
-		/>
+		></textarea>
 	</label>
 
 	<label class="label mb-2">
-		<span>OT Trigger-Hinweise</span>
+		<span class="label-text">OT Trigger-Hinweise</span>
 		<textarea
 			name="trigger"
 			class="textarea"
 			rows="4"
 			placeholder="Musst du uns auf bestimmte Trigger hinweisen? Gemeint sind tatsächliche Schlüsselreize, die psychische oder physische Episoden oder Zusammenbrüche auslösen können."
-		/>
+		></textarea>
 	</label>
 	<button
 		type="submit"
-		class="variant-ghost-primary rounded px-4 py-2 hover:cursor-not-allowed"
+		class="preset-tonal-primary border-primary-500 rounded-sm border px-4 py-2 hover:cursor-not-allowed"
 		disabled
 	>
 		{#if isSubmitting}
@@ -104,17 +105,22 @@
 </form>
 
 {#if form?.success}
-	<aside class="alert variant-filled-surface mt-4">
-		<div class="alert-message">
-			<h3 class="h3">Anmeldung erfolgreich</h3>
-			<p>Deine Anmeldung wurde in die Liste eingetragen!</p>
+	<div
+		class="card preset-tonal-success grid grid-cols-1 items-center gap-4 p-4 lg:grid-cols-[1fr_auto]"
+	>
+		<div>
+			<p class="font-bold">Anmeldung erfolgreich</p>
+			<p class="text-xs">Deine Anmeldung wurde in die Liste eingetragen!</p>
 		</div>
-	</aside>
+	</div>
 {:else if form?.success === false}
-	<aside class="alert variant-filled-surface mt-4">
-		<div class="alert-message">
-			<h3 class="h3">Fehler bei Anmeldung!</h3>
-			<p>Es ist ein Fehler beim Übermitteln der Anmeldung aufgetreten!</p>
+	<div
+		class="card preset-tonal-warning grid grid-cols-1 items-center gap-4 p-4 lg:grid-cols-[auto_1fr_auto]"
+	>
+		<TriangleAlert />
+		<div>
+			<p class="font-bold">Fehler bei Anmeldung!</p>
+			<p class="text-xs">Es ist ein Fehler beim Übermitteln der Anmeldung aufgetreten.</p>
 		</div>
-	</aside>
+	</div>
 {/if}

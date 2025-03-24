@@ -1,4 +1,4 @@
-<h1 class="mb-4 text-2xl font-bold">Was ist LARP?</h1>
+<h1 class="h1">Was ist LARP?</h1>
 <p class="mb-2 text-justify text-base leading-6">
 	LARP (Live Action Role Playing) ist ein interaktives Rollenspiel, bei dem die Teilnehmer in eine
 	fiktive Welt eintauchen und dort Charaktere verkörpern. Im Gegensatz zu herkömmlichen
