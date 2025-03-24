@@ -1,16 +1,18 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
+	import TriangleAlert from '@lucide/svelte/icons/triangle-alert';
 </script>
 
-<aside class="alert variant-ghost mb-6">
-	<Icon icon="mdi:warning" class="h-10 w-10 self-center" />
-	<div class="alert-message">
-		<h3 class="h3">Es ist nicht tot, was ewig liegt...</h3>
-		<p>Äthertanz ist für 2024 abgesagt! Wir sehen uns im Jahr 2025 wieder!</p>
+<div
+	class="card preset-tonal-warning mb-4 grid grid-cols-1 items-center gap-4 p-4 lg:grid-cols-[auto_1fr_auto]"
+>
+	<TriangleAlert />
+	<div>
+		<p class="font-bold">Es ist nicht tot, was ewig liegt...</p>
+		<p class="text-xs">Äthertanz ist für 2024 abgesagt! Wir sehen uns im Jahr 2025 wieder!</p>
 	</div>
-</aside>
+</div>
 
-<article class="prose text-center italic lg:prose-xl">
+<article class="text-center italic">
 	<p>
 		Sehr geehrte Damen und Herren,<br />
 		Es ist uns eine große Ehre, Sie persönlich zu einer geselligen Zusammenkunft in einem exklusiven

@@ -1,5 +1,5 @@
 <h1 class="h1">Impressum</h1>
-<h2 class="h2 mb-1 mt-4">Angaben gemäß § 5 TMG</h2>
+<h2 class="h2 mt-4 mb-1">Angaben gemäß § 5 TMG</h2>
 <p>Nächtliches Theater e.V.</p>
 <p>Hummelsteiner Weg 22</p>
 <p>90459 Nürnberg</p>
@@ -18,7 +18,7 @@
 <p>Jennifer Kiebler-Michaelis (Zweiter Vorstand)</p>
 <p>Michael Kiebler (Schatzmeister)</p>
 
-<h2 class="h2 mb-1 mt-4">Kontakt</h2>
+<h2 class="h2 mt-4 mb-1">Kontakt</h2>
 <p>
 	<strong class="font-semibold">Telefon:</strong> 0171 / 3118269
 </p>
@@ -32,12 +32,12 @@
 	</a>
 </p>
 
-<h2 class="h2 mb-1 mt-4">Redaktionell verantwortlich</h2>
+<h2 class="h2 mt-4 mb-1">Redaktionell verantwortlich</h2>
 <p>Sebastian Tremmel</p>
 <p>Albrecht-Dürer-Str. 1</p>
 <p>90579 Langenzenn</p>
 
-<h2 class="h2 mb-1 mt-4">Copyright</h2>
+<h2 class="h2 mt-4 mb-1">Copyright</h2>
 <p>
 	Diese Homepage enthält einige Fotos unserer Veranstaltungen, die einen Eindruck von den
 	Aktivitäten unseres Vereins geben sollen. Das Copyright dieser Fotos liegt beim Fotografen bzw.
@@ -45,12 +45,12 @@
 </p>
 
 <p>Bei jeglichen Fragen zu den Bildern bitte an den Vereinsvorstand wenden.</p>
-<h2 class="h2 mb-1 mt-4">Haftungsausschluss</h2>
+<h2 class="h2 mt-4 mb-1">Haftungsausschluss</h2>
 <p class="mb-2 text-justify first-letter:text-2xl">
 	Wir distanzieren uns ausdrücklich von den Inhalten jeglicher Seiten, auf die von unserer Seite aus
 	verwiesen wird. Wir prüfen diese nicht auf Korrektheit, Rechtschreibung, Aktualität etc.
 </p>
-<h2 class="h2 mb-1 mt-4">Streitbeilegung</h2>
+<h2 class="h2 mt-4 mb-1">Streitbeilegung</h2>
 <p class="mb-2 text-justify first-letter:text-2xl">
 	Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
 	Verbraucherschlichtungsstelle teilzunehmen.

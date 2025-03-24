@@ -3,14 +3,22 @@
 	import Icon from '@iconify/svelte';
 	import { socialIconConfig, type SocialMedia } from './socialIconConfig';
 
-	export let icon: SocialMedia;
-	export let href: string | undefined = undefined;
-	export let text: string | undefined = undefined;
-	export let style: 'button' | 'icon' = 'button';
-	export let iconSize: string | undefined = undefined;
+	let {
+		icon,
+		href = undefined,
+		text = undefined,
+		style = 'button',
+		iconSize = undefined
+	}: {
+		icon: SocialMedia;
+		href?: string | undefined;
+		text?: string | undefined;
+		style: 'button' | 'icon';
+		iconSize: string | undefined;
+	} = $props();
 
-	const buttonStyle = 'variant-filled-primary btn rounded-lg text-lg';
-	$: styling = style === 'button' ? buttonStyle : undefined;
+	const buttonStyle = 'preset-filled-primary btn rounded-lg text-lg';
+	let styling = $derived(() => (style === 'button' ? buttonStyle : undefined));
 </script>
 
 <a
