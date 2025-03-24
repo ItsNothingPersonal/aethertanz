@@ -11,7 +11,7 @@
 	<p class="mt-4 text-center font-bold">
 		Äthertanz I: Höhenluft<br />
 		Eine Mythos-Convention des Nächtliches Theater e.V.<br />
-		25.-27. Oktober 2024<br />
+		03.-05. Oktober 2025<br />
 		Pfadfinder Centrum Callenberg
 	</p>
 
@@ -77,14 +77,13 @@
 		passen hier wenig, genau wie allzu offensichtlich moderne Speisen und Getränke (z.B. Energydrinks).
 	</p>
 	<p>
-		<span class="font-bold">Preis:</span> Wir bieten euch für voraussichtlich ungefähr fünfzig Euro zwei
-		Übernachtungen, drei Mahlzeiten pro Tag sowie Snacks und nichtalkoholische Getränke. Alkoholische
-		Getränke können selbst mitgebracht oder zu günstigen Preisen an der Bar bestellt werden. Den genauen
-		Beitrag geben wir im Laufe der Anmeldephase bekannt. Erst mit Geldeingang ist die Anmeldung vollständig
-		abgeschlossen.
+		<span class="font-bold">Preis:</span> Wir bieten euch für achtzig Euro zwei Übernachtungen, drei
+		Mahlzeiten pro Tag sowie Snacks und nichtalkoholische Getränke. Alkoholische Getränke können selbst
+		mitgebracht oder im Rahmen der Verfügbarkeit zu günstigen Preisen an der Bar bestellt werden. Der
+		Geldeingang muss bis zum 01.07.2025 erfolgen.
 	</p>
 	<p>
-		<span class="font-bold">Zeit:</span> 25.-27. Oktober 2024. Wir bespielen IT die Anreise, insofern
+		<span class="font-bold">Zeit:</span> 03.-10. Oktober 2025. Wir bespielen IT die Anreise, insofern
 		bitten wir OT um Pünktlichkeit. Die OT-Anreise ist ab 18 Uhr möglich, um 19 Uhr wollen wir IT gehen.
 		Wer nicht pünktlich anreisen kann, möge uns bitte Bescheid geben. Das Intime endet in der Nacht von
 		Samstag auf Sonntag. Der Barbetrieb bleibt danach noch bestehen, und am Folgetag können wir gemeinsam

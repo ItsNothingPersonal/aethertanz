@@ -5,7 +5,7 @@ Hiermit bestätigen wir den Eingang deiner Anmeldung!<br /><br />
 
 Hier nochmal die wichtigsten Angaben zur Con:<br />
 <strong>Äthertanz: Höhenluft</strong><br />
-25.-27. Oktober 2024<br />
+03.-05. Oktober 2025<br />
 Pfadfinder Centrum Callenberg<br /><br />
 
 Bitte überprüfe auch, ob deine Angaben aus dem Anmeldeformular korrekt sind:<br />
