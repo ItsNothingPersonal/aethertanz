@@ -7,10 +7,8 @@
 >
 	<TriangleAlert />
 	<div>
-		<p class="font-bold">Es ist nicht tot, was ewig liegt...</p>
-		<p class="text-xs">
-			Die Anmeldung für Äthertanz ist ab dem 29.03.2025 möglich und läuft bis 01.06.2025.
-		</p>
+		<p class="font-bold">Juni 2025: Es ist nicht tot, was ewig liegt...</p>
+		<p class="text-xs">Die Anmeldung für Äthertanz steht kurz bevor!</p>
 	</div>
 </div>
 
