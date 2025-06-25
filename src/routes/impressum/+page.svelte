@@ -16,7 +16,7 @@
 <h3 class="h3 mt-2">Vertreten durch</h3>
 <p>Christian Schulz (Erster Vorstand)</p>
 <p>Jennifer Kiebler-Michaelis (Zweiter Vorstand)</p>
-<p>Michael Kiebler (Schatzmeister)</p>
+<p>Oliver Weiß (Schatzmeister)</p>
 
 <h2 class="h2 mt-4 mb-1">Kontakt</h2>
 <p>

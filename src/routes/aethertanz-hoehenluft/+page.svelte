@@ -65,7 +65,7 @@
 	</p>
 
 	<p>
-		<span class="font-bold">Kost und Logis:</span> IT befinden wir uns im Herbst 1924 in einem
+		<span class="font-bold">Kost und Logis:</span> IT befinden wir uns im Herbst 1925 in einem
 		abgelegenen Dorf in den Schweizer Alpen – OT geht es in das
 		<a href="https://pfadfinder-abenteuer.de/unterkuenfte/pfadfinder-centrum-callenberg/">
 			Pfadfinder Centrum Callenberg
@@ -77,7 +77,7 @@
 		passen hier wenig, genau wie allzu offensichtlich moderne Speisen und Getränke (z.B. Energydrinks).
 	</p>
 	<p>
-		<span class="font-bold">Preis:</span> Wir bieten euch für achtzig Euro zwei Übernachtungen, drei
+		<span class="font-bold">Preis:</span> Wir bieten euch für hundert Euro zwei Übernachtungen, drei
 		Mahlzeiten pro Tag sowie Snacks und nichtalkoholische Getränke. Alkoholische Getränke können selbst
 		mitgebracht oder im Rahmen der Verfügbarkeit zu günstigen Preisen an der Bar bestellt werden. Der
 		Geldeingang muss bis zum 01.07.2025 erfolgen.
