@@ -7,8 +7,8 @@
 >
 	<TriangleAlert />
 	<div>
-		<p class="font-bold">Juni 2025: Es ist nicht tot, was ewig liegt...</p>
-		<p class="text-xs">Die Anmeldung für Äthertanz steht kurz bevor!</p>
+		<p class="font-bold">Juli 2025: Bis dass die Zeit den Tod besiegt ...</p>
+		<p class="text-xs">Die Anmeldephase läuft noch bis 31.07.2025!</p>
 	</div>
 </div>
 
