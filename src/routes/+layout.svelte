@@ -34,7 +34,7 @@
 
 <main class="relative h-full">
 	<div class="absolute inset-0 overflow-y-auto">
-		<div class="container mx-auto p-2 pb-16 sm:p-4">
+		<div class="container mx-auto mb-2 p-2 pb-16 sm:mb-40 sm:p-4">
 			<div
 				class="mx-auto max-w-3xl rounded-lg bg-white/50 p-4 shadow-lg backdrop-blur-lg dark:bg-black/50"
 				transition:slide={{ delay: 250, duration: 300, easing: quintOut, axis: 'x' }}
