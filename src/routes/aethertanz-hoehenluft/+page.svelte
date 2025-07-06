@@ -79,8 +79,7 @@
 	<p>
 		<span class="font-bold">Preis:</span> Wir bieten euch für 100 Euro zwei Übernachtungen, drei Mahlzeiten
 		pro Tag sowie Snacks und nichtalkoholische Getränke. Alkoholische Getränke können selbst mitgebracht
-		oder im Rahmen der Verfügbarkeit zu günstigen Preisen an der Bar bestellt werden. Der Geldeingang
-		muss bis zum 01.07.2025 erfolgen.
+		oder im Rahmen der Verfügbarkeit zu günstigen Preisen an der Bar bestellt werden.
 	</p>
 	<p>
 		<span class="font-bold">Zeit:</span> 03.-10. Oktober 2025. Wir bespielen IT die Anreise, insofern
