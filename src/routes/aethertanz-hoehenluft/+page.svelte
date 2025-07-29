@@ -82,7 +82,7 @@
 		oder im Rahmen der Verfügbarkeit zu günstigen Preisen an der Bar bestellt werden.
 	</p>
 	<p>
-		<span class="font-bold">Zeit:</span> 03.-10. Oktober 2025. Wir bespielen IT die Anreise, insofern
+		<span class="font-bold">Zeit:</span> 03.-05. Oktober 2025. Wir bespielen IT die Anreise, insofern
 		bitten wir OT um Pünktlichkeit. Die OT-Anreise ist ab 18 Uhr möglich, um 19 Uhr wollen wir IT gehen.
 		Wer nicht pünktlich anreisen kann, möge uns bitte Bescheid geben. Das Intime endet in der Nacht von
 		Samstag auf Sonntag. Der Barbetrieb bleibt danach noch bestehen, und am Folgetag können wir gemeinsam
