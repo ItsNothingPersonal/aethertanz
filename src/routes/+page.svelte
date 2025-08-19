@@ -7,8 +7,13 @@
 >
 	<TriangleAlert />
 	<div>
-		<p class="font-bold">Juli 2025: Bis dass die Zeit den Tod besiegt ...</p>
-		<p class="text-xs">Die Anmeldephase läuft noch bis 31.07.2025!</p>
+		<p class="font-bold">
+			“Who knows the end? What has risen may sink, and what has sunk may rise.“
+		</p>
+		<p class="text-xs">
+			Äthertanz ist 2025 abgesagt - das Projekt des Nächtlichen Theaters ist beendet. <br /> Herzlichen
+			Dank für das Interesse!
+		</p>
 	</div>
 </div>
 
