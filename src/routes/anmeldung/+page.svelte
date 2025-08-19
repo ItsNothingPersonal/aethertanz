@@ -91,7 +91,11 @@
 			placeholder="Musst du uns auf bestimmte Trigger hinweisen? Gemeint sind tatsächliche Schlüsselreize, die psychische oder physische Episoden oder Zusammenbrüche auslösen können."
 		></textarea>
 	</label>
-	<button type="submit" class="preset-tonal-primary border-primary-500 rounded-sm border px-4 py-2">
+	<button
+		type="submit"
+		class="preset-tonal-primary border-primary-500 rounded-sm border px-4 py-2"
+		disabled
+	>
 		{#if isSubmitting}
 			Anmeldung wird übermittelt...
 		{:else}
